@@ -398,3 +398,34 @@ transition: .5s;
  
 }
 }
+
+@media screen and (max-width:1080px) {
+  .grid-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .cards{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .input-form-nombre{
+    height: 50px;
+    width: 250px;
+ 
+  }
+  
+  .input-form-email{
+    height: 50px;
+    width: 250px;
+ 
+  }
+  
+  .textarea{
+    width: 250px; 
+    height: 150px; 
+ 
+}
+}
