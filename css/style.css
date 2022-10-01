@@ -28,11 +28,15 @@ body{
   display: grid;
   background-color: #BFBFBF;
   margin-bottom: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
 }
 .container{
   display: flex;
   align-items: center;
   background-color:#F2F2F2;
+  position: relative;
 }
 
 .logo{
@@ -54,7 +58,6 @@ header nav ul li {
 header nav ul{
   display: flex;
   justify-content:space-evenly;
-  background-color:#F2F2F2;
   opacity: 1;
   align-items: center;
   border: 1px solid #0D0D0D;
@@ -90,6 +93,8 @@ header nav ul{
   margin-top: 0;
   margin-bottom: 100px;
   background-color: #BFBFBF;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .card{
@@ -98,10 +103,6 @@ header nav ul{
   margin-top: 0;
 }
 
-.container{
-  position: relative;
-
-}
 
 .icono-card{
   width: 6em;
