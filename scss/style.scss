@@ -63,10 +63,9 @@
     }
 
     .glitch{
-        margin-top: 150px;
+        margin-top: 25px;
         margin-left: 25px;
         margin-right: 25px;
-        margin-bottom: 100px;
         text-align: center;
         font-family: 'Karla', sans-serif;
         font-size: 6rem;
@@ -80,25 +79,6 @@
 
         animation: glitch 500ms infinite;
 
-        span{
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-        
-        }
-        span:first-child{
-            animation: glitch 650ms infinite;
-            clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-            transform: translate(-0.025em, -0.0125em);
-            opacity: 0.8;
-        }
-        span:last-child{
-            animation: glitch 375ms infinite;
-            clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-            transform: translate(0.0125em, 0.025em);
-            opacity: 0.8;
-        }
       }
     @keyframes glitch{
         0%{
@@ -155,13 +135,13 @@
     color: #F2F2F2;
     }
     .icono-cara{
-    display: block;
+    display:block;
     margin: auto;
-    width: 15em;
+    width: 12em;
     background-color: #f2f2f2;
     border-radius: 100%;
-    margin-top:30px;
-    margin-bottom: 100px;
+    margin-top:25px;
+    margin-bottom: 10px;
     }
     .diseño-web{
     display: block;
@@ -177,11 +157,11 @@
     background-color: #F2F2F2;
     margin-left: 25px;
     margin-right: 25px;
+    border-radius: 5%;
     }
     
-    .card{
-    background-color: #F2F2F2;
-    border: 1px solid #0D0D0D;
+    .card{     
+    border: 1px solid #f2f2f2;
     margin-top: 0;
     }
     
@@ -191,14 +171,16 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #F2F2F2;
     }
     
     .details{
     padding: 20px 10px;
+    font-family: 'Inconsolata', monospace;
     }
     
     .titulo-card{
-    font-family: 'Quattrocento', serif;
+    font-family: 'Karla', sans-serif;
     display: flex;
     justify-content: center;
     font-weight: 600;
@@ -220,23 +202,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #BFBFBF;
+    background-color: #F2F2F2;
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 1rem;
-    box-shadow: .5rem 2px .5rem black;
     p{
-        font-family: 'Fanwood Text', serif;
+        font-family: 'Karla', sans-serif;
         font-size: 25px;
+        background-color: #F2F2F2;
+        color: #0D0D0D;
+        text-transform: uppercase;
         }
     }
     
     .button-enviar{
-    font-family: 'Fanwood Text', serif;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
     background-color: #F2F2F2;
     border-radius: 20px;
-    border: 1px solid black;
+    border: 2.5px solid black;
     cursor: pointer;
     width: 150px;
     height: 50px;
@@ -244,9 +229,8 @@
     }
     
     .input-form-nombre{
-    
+    font-family: 'Inconsolata', monospace;
     background-color: #F2F2F2;
-    border-radius: 20px;
     height: 50px;
     width: 300px;
     border: 2.5px solid #0D0D0D;
@@ -254,8 +238,8 @@
     }
     
     .input-form-email{
+    font-family: 'Inconsolata', monospace;
     background-color: #F2F2F2;
-    border-radius: 20px;
     height: 50px;
     width: 300px;
     border: 2.5px solid #0D0D0D;
@@ -270,7 +254,7 @@
     margin-top: 10px;
     padding-left: 10px;
     padding-top: 15px;
-    border-radius: 20px;
+
     }
     img{
     width: 100%;
@@ -297,6 +281,7 @@
     }
     
     .overly{
+    font-family: 'Inconsolata', monospace;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -325,7 +310,7 @@
     
     .icono-cara-about{
     width: 6em;
-    background-color: #BFBFBF;
+    background-color: #f2f2f2;
     border-radius: 100%;
     margin-top:30px;
     }
@@ -346,12 +331,12 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+    font-family: 'Inconsolata', monospace;
     }
     .container-skills .card-skills{
     position: relative;
     max-width: 300px;
     height: 260px;
-    background-color: #BFBFBF;
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
@@ -395,7 +380,6 @@
     }
     .footer{
     border-top: 1px solid #f2f2f2;
-    margin-top: 125px;
     }
     
     .footer .social{
@@ -478,6 +462,11 @@
     width: 150px;
     height: 150px;
     
+    }
+   
+    .glitch{
+        font-size: 2em;
+        margin-bottom: 100px;
     }
     }
     
