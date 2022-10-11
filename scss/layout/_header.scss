@@ -1,27 +1,20 @@
-header{
+header nav ul li a{
+    text-decoration: none;
+    color: #0D0D0D;
+  }
+  
+  header nav ul li {
+    display:flex;
+    list-style-type: none;
+    font-size: 20px;
+    
+  }  
+  header nav ul{
     display: flex;
-    background-color: $background-principal;
-    h1{
-        color:rgb(117, 141, 161);
-    }
-    nav{
-        background-color: rgb(211, 183, 183);
-        width: 100%;
-    }
-}
-
-.navBar{
-    display: flex;
-    justify-content: space-evenly;
-    li{
-        list-style: none;
-        font-size: 25px;
-        a{
-            text-decoration: none;
-            color: black;
-            &:hover{
-                color: aliceblue;
-            }
-        }
-    }
-}
+    justify-content:space-evenly;
+    opacity: 1;
+    align-items: center;
+    border: 1px solid #0D0D0D;
+    background-color: #BFBFBF;
+  }
+  
