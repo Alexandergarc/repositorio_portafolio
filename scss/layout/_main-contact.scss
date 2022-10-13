@@ -9,39 +9,25 @@
         }
         .formularios{
         width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #F2F2F2;
+        @include propiedades-flex (column,center,center);
+        background-color: $background-secundario;
         border-radius: 20px;
         margin-bottom: 20px;
         margin-top: 20px;
         padding: 1rem;
         p{
-            font-family: 'Karla', sans-serif;
-            font-size: 25px;
-            background-color: #F2F2F2;
+            font-family: $fuente-principal;
+            font-size: $font-lg;
+            background-color: $background-secundario;
             color: #0D0D0D;
             text-transform: uppercase;
             }
         }
         
-        .button-enviar{
-        font-family: 'Karla', sans-serif;
-        font-weight: bold;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        border: 2.5px solid black;
-        cursor: pointer;
-        width: 150px;
-        height: 50px;
-        margin-top: 20px;
-        }
-        
+       
         .input-form-nombre{
-        font-family: 'Inconsolata', monospace;
-        background-color: #F2F2F2;
+        font-family: $fuente-secundaria;
+        background-color: $background-secundario;
         height: 50px;
         width: 300px;
         border: 2.5px solid #0D0D0D;
@@ -49,8 +35,8 @@
         }
         
         .input-form-email{
-        font-family: 'Inconsolata', monospace;
-        background-color: #F2F2F2;
+        font-family: $fuente-secundaria;
+        background-color: $background-secundario;
         height: 50px;
         width: 300px;
         border: 2.5px solid #0D0D0D;
@@ -58,7 +44,7 @@
         }
         
         .textarea{
-        background-color:#F2F2F2;
+        background-color:$background-secundario;
         width: 450px;
         height: 150px;
         border: 2.5px solid #0D0D0D;
@@ -71,6 +57,6 @@
         .container{
             display: flex;
             align-items: center;
-            background-color:#F2F2F2;
+            background-color:$background-secundario;
             position: relative;
             }

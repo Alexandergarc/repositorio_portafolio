@@ -1,6 +1,6 @@
 .titulo-about{
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
+    font-family: $fuente-principal;
+    font-size: $font-xl;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
@@ -12,7 +12,7 @@
 
 .icono-cara-about{
     width: 6em;
-    background-color: #f2f2f2;
+    background-color:$background-secundario;
     border-radius: 100%;
     margin-top:30px;
     }

@@ -1,12 +1,25 @@
+.titulos{
+    font-family:  $fuente-principal;
+    font-size: $font-lg;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+    
+.p-skills{
+    color: #0d0d0d;
+}
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     padding: 20px;
     margin-top:70px;
     margin-bottom: 100px;
-    background-color: #F2F2F2;
-    margin-left: 25px;
-    margin-right: 25px;
+    background-color: $background-secundario;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 5%;
     }
     
@@ -17,23 +30,23 @@
     
     .icono-card{
     width: 6em;
-    display: block;
-    margin: auto;
+    @include centrar-img;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #F2F2F2;
+    background-color: $background-secundario;
     }
     
     .details{
+    color: #0d0d0d;
     padding: 20px 10px;
-    font-family: 'Inconsolata', monospace;
+    font-family:  $fuente-secundaria;
     }
     
     .titulo-card{
-    font-family: 'Karla', sans-serif;
+    font-family:  $fuente-principal;
     display: flex;
     justify-content: center;
     font-weight: 600;
-    font-size: 25px;
+    font-size: $font-lg;
     margin: 10px 0 15px 0;
     }

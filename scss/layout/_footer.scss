@@ -4,7 +4,7 @@
         text-align: center;
         a {
             margin-top: 50px;
-            font-size: 24px;
+            font-size: $font-md;
             color: inherit;
             width: 40px;
             height: 40px;
@@ -23,7 +23,7 @@
         margin-top: 0;
         padding: 0;
         list-style: none;
-        font-size: 18px;
+        font-size: $font-md;
         line-height: 1.6;
         margin-bottom: 0;
         text-align: center;
@@ -42,13 +42,12 @@
         }
     .copyright{
         text-align: center;
-        font-size: 13px;
+        font-size: $font-sm;
     }
     }
     
     
     .logo-footer{
-    display: block;
-    margin: auto;
+    @include centrar-img;
     width: 6em;
     }

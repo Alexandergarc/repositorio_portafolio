@@ -20,7 +20,7 @@
     }
     
     .overly{
-    font-family: 'Inconsolata', monospace;
+    font-family:  $fuente-secundaria;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -29,9 +29,9 @@
     padding: 29px 15px 10px;
     transition: .5s;
         h2{
-            font-size: 16px;
+            font-size: $font-sm;
             text-transform: uppercase;
-            color: #fff;
+            color: #f2f2f2;
             letter-spacing: 1px;
             margin-bottom: 15px;
             font-weight: 400;

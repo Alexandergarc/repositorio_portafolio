@@ -1,5 +1,5 @@
 nav{
-  background-color: #0D0D0D;
+  background-color: $background-principal;
   height: 100px;
   width: 100%;
   ul{
@@ -9,12 +9,12 @@ nav{
       li{
           display: inline-block;
           line-height:80px;
-          font-family: 'Karla', sans-serif;
+          font-family:$fuente-principal;
           list-style-type: none;
           margin-top: 40px;
           a {
               color: #f2f2f2;
-              font-size: 20px;
+              font-size: $font-md;
               text-transform: uppercase;
               font-weight: bold;
               text-decoration: none;
