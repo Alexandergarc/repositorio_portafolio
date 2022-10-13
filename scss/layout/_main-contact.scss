@@ -1,0 +1,76 @@
+
+    .titulo-contact{
+        margin-top: 70px;
+        margin-bottom: 10px;
+        }
+        .container-contact{
+        display: flex;
+        justify-content: center;
+        }
+        .formularios{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1rem;
+        p{
+            font-family: 'Karla', sans-serif;
+            font-size: 25px;
+            background-color: #F2F2F2;
+            color: #0D0D0D;
+            text-transform: uppercase;
+            }
+        }
+        
+        .button-enviar{
+        font-family: 'Karla', sans-serif;
+        font-weight: bold;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        border: 2.5px solid black;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        margin-top: 20px;
+        }
+        
+        .input-form-nombre{
+        font-family: 'Inconsolata', monospace;
+        background-color: #F2F2F2;
+        height: 50px;
+        width: 300px;
+        border: 2.5px solid #0D0D0D;
+        text-align: center;
+        }
+        
+        .input-form-email{
+        font-family: 'Inconsolata', monospace;
+        background-color: #F2F2F2;
+        height: 50px;
+        width: 300px;
+        border: 2.5px solid #0D0D0D;
+        text-align: center;
+        }
+        
+        .textarea{
+        background-color:#F2F2F2;
+        width: 450px;
+        height: 150px;
+        border: 2.5px solid #0D0D0D;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-top: 15px;
+    
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            background-color:#F2F2F2;
+            position: relative;
+            }

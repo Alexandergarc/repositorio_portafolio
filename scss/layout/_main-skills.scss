@@ -1,0 +1,39 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 20px;
+    margin-top:70px;
+    margin-bottom: 100px;
+    background-color: #F2F2F2;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5%;
+    }
+    
+    .card{     
+    border: 1px solid #f2f2f2;
+    margin-top: 0;
+    }
+    
+    .icono-card{
+    width: 6em;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    }
+    
+    .details{
+    padding: 20px 10px;
+    font-family: 'Inconsolata', monospace;
+    }
+    
+    .titulo-card{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0 15px 0;
+    }
