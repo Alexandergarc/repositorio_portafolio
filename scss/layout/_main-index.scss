@@ -3,30 +3,64 @@
     width: 12em;
     background-color: $background-secundario;
     border-radius: 100%;
-    margin-bottom: 10px;
     margin-top: 100px;
+    margin-bottom: -70px;
+}
+.container-index{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .glitch{
+    display: block;
+    width: fit-content;
+    font-family:  $fuente-principal;
+    font-size: 4rem;
+    font-weight: bold;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
-    margin-top: 15px;
-    text-align: center;
-    font-family:  $fuente-principal;
-    font-size: 6rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
     text-shadow:
     0.05em 0 0 rgba(255, 0, 0, .75),
     -0.025em -.05em 0 rgba(0, 255, 0, .75),
     0.025em .05em 0 rgba(0, 0, 255, .75);
-
     animation: glitch 500ms infinite;
-
+    & h1 {
+        position: relative;
+        color: transparent;
+        animation: text_reveal .5s ease forwards;
+        animation-delay: 1.5s;
+        span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 0;
+            background-color: $background-principal;
+            animation:text_reveal_box 1s ease;
+            animation-delay: 1s;
+        }
+    }
   }
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal{
+    100%{
+        color:$background-secundario;
+    }
+}
 @keyframes glitch{
     0%{
         text-shadow:

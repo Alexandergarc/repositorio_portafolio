@@ -17,3 +17,8 @@
     box-sizing: border-box;
     
 }
+
+@mixin letra-media{
+    text-align: center;
+    font-size: $font-sm;
+}

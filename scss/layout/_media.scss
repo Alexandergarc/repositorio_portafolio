@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen  and (max-width:700px) {
     .grid-main{
     display: grid;
     grid-template-columns: 1fr;
@@ -23,7 +23,8 @@
     height: 150px;
     }
     .glitch{
-        font-size: 2em;
+        text-align: center;
+        font-size: $font-sm;
         margin-bottom: 100px;
     }
     .titulo-contact{
@@ -62,7 +63,23 @@
     .checkbtn{
         display: block;
     }
+
+    .img-about{
+        margin-top: 50px;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 20%;
+        }
+
+
+    .formularios{
+         width: 70%;
     }
+    .cards{
+        margin-top:0px;
+        }
+}
+
     
     @media screen and (max-width:1080px) {
     .grid-main{
