@@ -19,8 +19,8 @@
     
     .img-about{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+    @include centrar-img;
+    width: 20em;
     gap: 20px;
     padding: 20px;
     border-radius: 20%;
