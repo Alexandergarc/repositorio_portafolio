@@ -16,6 +16,7 @@
 }
 
  .section-title{
+    margin-top: 50px;
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -100,6 +101,7 @@
             transition: 0.6s;
             transition-property: opacity, transform;
             color: #000;
+            margin-left: 180px;
         }
         h2{
             text-align: center;
@@ -144,15 +146,6 @@
 	bottom: -60px;
 	transition: 0.6s;
 	transition-property: bottom;
-
-    .read-more{
-        color: #000;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 500;
-        text-transform: uppercase;
-        font-family: $fuente-secundaria;
-    }
     span{
         font-weight: 900;
     }
@@ -163,83 +156,3 @@
 }
 
 
-/* Responsive CSS */
-
-@media (max-width: 1080px){
-	.image{
-		flex: 100%;
-		max-width: 480px;
-	}
-}
-
-@media (max-width: 400px){
-	.image .details p{
-		font-size: 16px;
-	}
-
-	.more .read-more{
-		font-size: 18px;
-	}
-}
-
-// .titulos{
-//     font-family:  $fuente-principal;
-//     font-size: $font-lg;
-//     font-weight: bold;
-//     text-align: center;
-//     margin-top: 30px;
-//     margin-bottom: 10px;
-//     text-transform: uppercase;
-//     }
-// .titulo-skills{
-//     font-family: $fuente-principal;
-//     font-size: $font-xl;
-//     font-weight: bold;
-//     text-align: center;
-//     margin-top: 40px;
-//     margin-bottom: 10px;
-//     color: #F2F2F2;
-//     text-transform: uppercase;
-// }
-// .p-skills{
-//     color: #0d0d0d;
-// }
-// .cards{
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-//     padding: 20px;
-//     margin-top:70px;
-//     margin-bottom: 100px;
-//     background-color: $background-secundario;
-//     margin-left: 50px;
-//     margin-right: 50px;
-//     border-radius: 5%;
-//     }
-    
-//     .card{     
-//     border: 1px solid #f2f2f2;
-//     margin-top: 0;
-//     }
-    
-//     .icono-card{
-//     width: 6em;
-//     @include centrar-img;
-//     margin-top: 10px;
-//     margin-bottom: 10px;
-//     background-color: $background-secundario;
-//     }
-    
-//     .details{
-//     color: #0d0d0d;
-//     padding: 20px 10px;
-//     font-family:  $fuente-secundaria;
-//     }
-    
-//     .titulo-card{
-//     font-family:  $fuente-principal;
-//     display: flex;
-//     justify-content: center;
-//     font-weight: 600;
-//     font-size: $font-lg;
-//     margin: 10px 0 15px 0;
-//     }

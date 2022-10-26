@@ -1,45 +1,176 @@
-@media screen  and (max-width:700px) {
-    .grid-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    }
-    .cards{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    }
-    .input-form-nombre{
-    height: 50px;
-    width: 150px;
-    }
-    .input-form-email{
-    height: 50px;
-    width: 150px;
-    }
-    .textarea{
-    width: 150px;
-    height: 150px;
-    }
-    .glitch{
-        text-align: center;
-        font-size: $font-sm;
-        margin-bottom: 100px;
-    }
-    .titulo-contact{
-        margin-top: 70px;
-    }
-    .grid{
-        margin-top: 300px;
-    }
-    .titulos{
-        margin-top: 70px;
-    }
-    .home{
-        padding-left: 20px;
-    }
-    ul{
+@media (max-width:450px) {
+      .grid-main{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      }
+      .cards{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      }
+      .input-form-nombre{
+      height: 50px;
+      width: 150px;
+      }
+      .input-form-email{
+      height: 50px;
+      width: 150px;
+      }
+      .textarea{
+      width: 150px;
+      height: 150px;
+      }
+      .glitch{
+        position: relative;
+          text-align: center;
+          font-size: 2em;
+          margin-top: 100px;
+          margin-bottom: 100px;
+      }
+      .titulo-contact{
+          margin-top: 70px;
+          margin-right: 20px;
+          margin-left: 20px;
+      }
+      .grid{
+          margin-top: 130px;
+      }
+      .titulos{
+          margin-top: 70px;
+      }
+      .home{
+          padding-left: 20px;
+      }
+      ul{
+          position:absolute;
+          width: 100%;
+          height: 100vh;
+          background-color: $background-principal;
+          top: 120px;
+          left: -100%;
+          text-align: center;
+          transition: all 0.5s ;
+      }
+      nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+      }
+      nav ul li a{
+          font-size: $font-md;
+      }
+      #check:checked ~ ul {
+          left: 0;
+      }
+      .checkbtn{
+          display: block;
+      }
+
+      .img-about{
+          margin-top: 50px;
+          gap: 20px;
+          padding: 20px;
+          border-radius: 20%;
+          }
+
+
+      .formularios{
+           width: 70%;
+      }
+      .cards{
+          margin-top:0px;
+          }
+        .image .details p{
+            font-size: 16px;
+        }
+
+        .more .read-more{
+            font-size: 18px;
+        }
+        .skills-bottom .skills-item {
+            flex-basis: 35%;
+            margin: 2.5%;
+        }   
+        .icono-cara{
+            margin-top: 100px;
+        }  
+        .image{
+            flex: 100%;
+            max-width: 480px;
+        }  
+        .parrafo-about{
+            margin-left: 20px;
+            margin-right: 20px;
+          }   
+
+          .image img{
+            opacity: 1;
+            
+        } 
+        
+        
+        .image .details h2{
+            transform: translateY(-50px);
+            
+        }
+        
+        
+        .image  .details p{
+            opacity: 1;
+            transform: translateY(-60px);
+            
+            margin-left: 100px;
+        }
+         
+        
+  }
+
+    
+  @media (max-width:1080px) and (min-width:450px) {
+      .grid-main{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      }
+      .cards{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      }
+      .input-form-nombre{
+      height: 50px;
+      width: 250px;
+    
+      }
+    
+      .input-form-email{
+      height: 50px;
+      width: 250px;
+    
+      }
+      .formularios{
+        width: 70%;
+   }
+      .textarea{
+      width: 250px;
+      height: 150px;
+    
+      }
+        .glitch{
+            position: relative;
+              text-align: center;
+              font-size: 3em;
+              margin-top: 180px;
+              margin-bottom: 100px;
+          }
+      
+      .home{
+          padding-left: 20px;
+      }
+      ul{
         position:absolute;
         width: 100%;
         height: 100vh;
@@ -55,7 +186,7 @@
         line-height: 30px;
     }
     nav ul li a{
-        font-size: $font-md;
+        font-size: $font-sm;
     }
     #check:checked ~ ul {
         left: 0;
@@ -64,60 +195,33 @@
         display: block;
     }
 
-    .img-about{
-        margin-top: 50px;
-        gap: 20px;
-        padding: 20px;
-        border-radius: 20%;
+        .skills-bottom .skills-item {
+            flex-basis: 35%;
+            margin: 2.5%;
         }
-
-
-    .formularios{
-         width: 70%;
-    }
-    .cards{
-        margin-top:0px;
+        .icono-cara{
+            margin-top: 100px;
+        }  
+        .cards{
+            margin-top:0px;
+            }
+            .image{
+                flex: 100%;
+                max-width: 480px;
+            }
+          .image .details p{
+              font-size: 16px;
+          }
+  
+          .more .read-more{
+              font-size: 18px;
+          }
+          .parrafo-about{
+            margin-left: 20px;
+            margin-right: 20px;
+          }
         }
-}
+     
+  
 
-    
-    @media screen and (max-width:1080px) {
-    .grid-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    }
-    .cards{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    }
-    .input-form-nombre{
-    height: 50px;
-    width: 250px;
-    
-    }
-    
-    .input-form-email{
-    height: 50px;
-    width: 250px;
-    
-    }
-    
-    .textarea{
-    width: 250px;
-    height: 150px;
-    
-    }
-    .glitch{
-        font-size: 4em;
-        margin-bottom: 100px;
-    }
-    .home{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: $font-sm;
-    }
-}
+
